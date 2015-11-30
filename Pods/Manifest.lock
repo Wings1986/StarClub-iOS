@@ -1,0 +1,25 @@
+PODS:
+  - Bolts (1.1.2)
+  - Brightcove-Player-SDK (4.1.9):
+    - ReactiveCocoa (~> 2.1)
+  - Facebook-iOS-SDK (3.16.2):
+    - Bolts
+  - ReactiveCocoa (2.3.1):
+    - ReactiveCocoa/UI
+  - ReactiveCocoa/Core (2.3.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1)
+  - ReactiveCocoa/UI (2.3.1):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - Brightcove-Player-SDK (~> 4.1.7)
+  - Facebook-iOS-SDK (~> 3.16.0)
+
+SPEC CHECKSUMS:
+  Bolts: 2635e8698a630774689441047f3465d78c48d485
+  Brightcove-Player-SDK: 9394058b603db91beac994326124d2a46183feec
+  Facebook-iOS-SDK: 34eef640c2cc4c8618ba0f574ad2b290e07f1b4e
+  ReactiveCocoa: dca75777b9d18990c8714a3a6f2149f29b4d1462
+
+COCOAPODS: 0.34.1

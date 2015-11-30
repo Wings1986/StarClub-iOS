@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Bolts" "${PODS_ROOT}/Headers/Public/Brightcove-Player-SDK" "${PODS_ROOT}/Headers/Public/Facebook-iOS-SDK" "${PODS_ROOT}/Headers/Public/Facebook-iOS-SDK/FacebookSDK" "${PODS_ROOT}/Headers/Public/ReactiveCocoa" "${PODS_ROOT}/Headers/Public/ReactiveCocoa/ReactiveCocoa"
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/Brightcove-Player-SDK/Library"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Bolts" -isystem "${PODS_ROOT}/Headers/Public/Brightcove-Player-SDK" -isystem "${PODS_ROOT}/Headers/Public/Facebook-iOS-SDK" -isystem "${PODS_ROOT}/Headers/Public/Facebook-iOS-SDK/FacebookSDK" -isystem "${PODS_ROOT}/Headers/Public/ReactiveCocoa" -isystem "${PODS_ROOT}/Headers/Public/ReactiveCocoa/ReactiveCocoa"
+OTHER_LDFLAGS = -ObjC -l"BCOVPlayerSDK" -l"Pods-Bolts" -l"Pods-Brightcove-Player-SDK" -l"Pods-Facebook-iOS-SDK" -l"Pods-ReactiveCocoa" -framework "AVFoundation" -framework "CoreLocation" -framework "CoreMedia" -framework "MediaPlayer" -weak_framework "Accounts" -weak_framework "Security" -weak_framework "Social"
+PODS_ROOT = ${SRCROOT}/Pods
